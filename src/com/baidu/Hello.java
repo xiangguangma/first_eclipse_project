@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServletResponse;
 
 public class Hello extends HttpServlet {
 
+	/**
+	 * 注释
+	 */
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
